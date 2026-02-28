@@ -1,0 +1,11 @@
+# Ignore compiled executables
+*.exe
+*.out
+*.obj
+*.o
+
+# Optional: ignore build folders
+bin/
+obj/
+Debug/
+Release/

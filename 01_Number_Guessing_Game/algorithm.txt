@@ -1,0 +1,29 @@
+ALGORITHM:
+
+1. START
+
+2. Generate a random number between 1 and 100
+   Store it in variable "secretNumber"
+
+3. Declare variables:
+      integer guess
+      integer attempts ← 0
+
+4. Repeat until guess == secretNumber:
+
+   a. Ask user to enter a number
+   b. Read value into "guess"
+   c. Increment attempts by 1
+
+   d. If guess == secretNumber
+         Print "Congratulations! You guessed the correct number."
+         Print "Total Attempts: ", attempts
+         Exit loop
+
+      Else if guess < secretNumber
+         Print "Too Low! Try a bigger number."
+
+      Else
+         Print "Too High! Try a smaller number."
+
+5. END
