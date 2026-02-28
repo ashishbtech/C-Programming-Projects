@@ -1,29 +1,29 @@
-ALGORITHM:
+ALGORITHM: NUMBER GUESSING GAME
 
 1. START
-
-2. Generate a random number between 1 and 100
-   Store it in variable "secretNumber"
-
-3. Declare variables:
-      integer guess
-      integer attempts ← 0
-
-4. Repeat until guess == secretNumber:
-
-   a. Ask user to enter a number
-   b. Read value into "guess"
-   c. Increment attempts by 1
-
-   d. If guess == secretNumber
-         Print "Congratulations! You guessed the correct number."
-         Print "Total Attempts: ", attempts
-         Exit loop
-
-      Else if guess < secretNumber
-         Print "Too Low! Try a bigger number."
-
-      Else
-         Print "Too High! Try a smaller number."
-
-5. END
+2. Initialize random seed using the current time.
+3. Repeat the following steps (Main Menu Loop) until choice equals 4:
+   a. Display difficulty menu:
+      - 1 for Easy (1 to 50, 7 chances)
+      - 2 for Medium (1 to 100, 5 chances)
+      - 3 for Hard (1 to 200, 3 chances)
+      - 4 to Exit
+   b. Read user input into variable 'choice'.
+   c. Check 'choice':
+      - If 1: Set max = 50, chances = 7
+      - If 2: Set max = 100, chances = 5
+      - If 3: Set max = 200, chances = 3
+      - If 4: Print exit message and exit loop.
+      - If invalid: Print error, skip the rest of the loop, and ask again.
+   d. Generate a random 'number' between 1 and 'max'.
+   e. Set 'attempts' = 0.
+   f. Repeat the following steps (Game Loop) while 'attempts' < 'chances':
+      i. Prompt user to enter a 'guess' (or -1 to quit).
+      ii. Read user input into variable 'guess'.
+      iii. If guess == -1: Print quit message revealing the number and exit inner loop.
+      iv. Increment 'attempts' by 1.
+      v. If guess == number: Print success message with attempts and exit inner loop (Win).
+      vi. Else if guess < number: Print "Too low! Try again."
+      vii. Else: Print "Too high!! Try again."
+      viii. If attempts == chances AND guess != number: Print "Game Over" message revealing the number (Loss).
+4. END
