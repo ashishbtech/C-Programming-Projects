@@ -9,7 +9,7 @@ I have completed my core learning of C programming by studying documentation fro
 The primary goal of building these projects is to test my logic, solidify my understanding of C, and thoroughly revise these core concepts. Building these from scratch serves as my final practice ground before I transition to learning my next programming languages, like JavaScript.
 
 ### 🏆 Certification
-![C Programming Certificate](assets/c_certificate.jpg)
+![C Programming Certificate](assets/c_certificate.png)
 
 ## 🗂️ Project Directory
 
