@@ -23,9 +23,3 @@ This program allows a user to input a movie title, release year, and a rating, g
 * **String Manipulation:** Using `fgets` to capture string inputs with spaces.
 * **Repository Management:** Utilizing a `.gitignore` file to safely exclude the generated database from version control.
 
-## 🚀 How to Run
-
-1. Clone this repository to your local machine.
-2. Compile the C code using GCC:
-   ```bash
-   gcc main.c -o watchlist

@@ -22,10 +22,3 @@ This project reinforces core computer science fundamentals, including:
 * **User I/O:** Using `scanf` and `printf` for clean terminal interaction.
 * **Error Handling:** Preventing crashes by validating data (e.g., blocking division by zero).
 
-## 🚀 How to Run
-
-1. Clone this repository to your local machine.
-2. Open your terminal and navigate to this project folder.
-3. Compile the C code using GCC:
-   ```bash
-   gcc main.c -o calculator

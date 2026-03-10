@@ -26,8 +26,3 @@ This project simulates a movie theater booking system where users can view avail
 * **Control Flow:** Loops & Conditional Logic.
 * **State Management:** Tracking `O` for Open and `X` for Booked.
 
-## 💻 How to Run
-
-1. Compile the file:
-```bash
-gcc ticket_system.c -o ticket_system

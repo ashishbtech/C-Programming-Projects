@@ -21,10 +21,3 @@ A terminal-based file reading utility written in C. This program completes the c
 * **The EOF Loop:** Utilizing `while` loops combined with `fgets()` to read an unknown amount of lines until the End of File is reached.
 * **Pointer Validation:** Enforcing `NULL` checks on `FILE *` pointers to prevent runtime segmentation faults.
 
-## 🚀 How to Run
-
-1. Clone this repository to your local machine.
-2. Ensure you have a `watchlist.txt` file in the same directory (generate one using the CLI Movie Watchlist project).
-3. Compile the C code using GCC:
-   ```bash
-   gcc main.c -o reader

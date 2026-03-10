@@ -23,9 +23,3 @@ The program generates a pseudo-random movie release year between 1990 and 2025, 
 * **Flow Control:** Using `break` to exit loops early upon a successful guess.
 * **Conditional Logic:** Guiding the user with nested `if-else` statements.
 
-## 🚀 How to Run
-
-1. Clone this repository to your local machine.
-2. Compile the C code using GCC:
-   ```bash
-   gcc main.c -o guesser

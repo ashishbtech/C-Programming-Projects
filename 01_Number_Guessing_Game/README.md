@@ -22,11 +22,3 @@ A fun and interactive command-line game built in C. This project demonstrates co
 * **Switch Statements:** Efficiently routing user choices for the difficulty menu.
 * **Break & Continue Logic:** Safely handling loop exits when a user wins, loses, or chooses to quit early.
 
-## 🛠️ How to Compile and Run
-
-To play this game on your local machine, ensure you have a C compiler (like GCC) installed.
-
-1. Open your terminal and navigate to the directory containing the file.
-2. Compile the code using GCC:
-   ```bash
-   gcc main.c -o guess_game
